@@ -8,9 +8,7 @@
         </title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     </head>
     <body>
         <header class="cabeçalho">
@@ -20,21 +18,21 @@
                     <span class="cabeçalho_menu_hamburguer container__imagem"></span>
                 </label>
                 <ul class="lista-menu">
-                    <li class="lista-menu__titulo">Categoria</li>
+                    <li class="lista-menu__titulo">Mangás</li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Programação</a>
+                        <a href="#" class="lista-menu__link">Berserk</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Front-end</a>
+                        <a href="#" class="lista-menu__link">Vinland Saga</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Infraestrutura</a>
+                        <a href="#" class="lista-menu__link">Death Note</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Business</a>
+                        <a href="#" class="lista-menu__link">Vagabond</a>
                     </li>
                     <li class="lista-menu__item">
-                        <a href="#" class="lista-menu__link">Design & UX</a>
+                        <a href="#" class="lista-menu__link">Naruto</a>
                     </li>
                 </ul>
                     <img src="img/Logo.svg" alt="Logo do AluraBooks" class="container__imagem">
@@ -45,6 +43,36 @@
                 <a href="#"><img src="img/Usuário.svg" alt="Meu Perfil" class="container__imagem"></a>
             </div>
         </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Encontre em nossa 
+                estante o que precisa para seu desenvolvimento!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+            <!-- Slider main container -->
+                <div class="swiper">
+              <!-- Additional required wrapper -->
+                 <div class="swiper-wrapper">
+              <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+         <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     </body>
 
